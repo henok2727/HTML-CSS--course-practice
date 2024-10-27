@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>coloring</title>
+  <style>
+    h3{
+      color: rgb(00, 255, 0); /* RGB vaalue=> r-red, g-green, b-blue*/
+                    /* (255,0,0) => red*/
+    }
+    h4{
+      color: #ff0000; /* hexadecimal => this is also rgb order, ff is high, 00 is low*/
+    }
+    h2{
+      color: hsl(0, 0%, 0%);  /*hsl => hue, saturation, lightness*/
+      /*
+          Hue is a degree on the color wheel from 0 to  360. 0 is red, 120 is green, 240 is blue
+          Saturation is a percentage value, 0% means a shade of gray, and 100% is the full color
+          Lightness is also a percentage, 0% is black, 50% is neither light or dark, 100% is white
+      */
+    }
+    h5{
+      color: hsla(hue, saturation, lightness, alpha);
+      color: hsla(0, 0%, 50%, 1.0); /* a-alpha => range b/n 0.0 upto 1.0   transparent over the background */
+    }
+    h6{
+      color: rgba(00, 255, 0, 0.5);
+    }
+  </style>
+</head>
+<body>
+  <h2>This is Henok web dev</h2>
+  <h3>This is Henok web dev</h3>
+  <h4>This is Henok web dev</h4>
+  <h5>This is Henok web dev</h5>
+  <h6>This is Henok web dev</h6>
+</body>
+</html>

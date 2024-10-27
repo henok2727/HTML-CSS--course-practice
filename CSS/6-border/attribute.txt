@@ -1,0 +1,14 @@
+Border style 
+
+the following are values 
+
+dotted - dotted Border
+dashed - dashed border
+solid - solid border
+double -double border
+groove - a 3D grooved border. The effect depends on the border-color value 
+ridge - a 3D ridged border. The effect depends on the border-color value
+inset - a 3D inset border. The effect depends on the border-color value
+outset - a 3D outset border. The effect depends on the border-color value 
+none - no border
+hidden- hidden border
